@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package helloworld.import_request;
+
+import "request.proto";
+
+service Greeter {
+    rpc SayHello (helloworld.HelloRequest) returns (HelloReply) {}
+}
+
+message HelloReply {
+    string message = 1;
+}
+

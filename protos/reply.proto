@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package helloworld;
+
+message HelloReply {
+    string message = 1;
+}
+
+
